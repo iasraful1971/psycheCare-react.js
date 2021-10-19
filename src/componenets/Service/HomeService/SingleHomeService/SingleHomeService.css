@@ -1,0 +1,68 @@
+.single-servicing img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+.single-servicing{
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all .4s ease-in-out;
+    border-radius: 20px;
+}
+.single-servicing:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgb(233, 217, 231);
+}
+.single-servicing h3{
+        font-size: 22px;
+        padding: 10px 0;
+        margin-top: 10px;
+        font-weight: 500;
+        color: rgb(228, 21, 166);
+    }
+    .single-servicing p {
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .details-btn{
+        border-radius: 20px;
+        outline: none;
+        border:none;
+        width: 100%;
+        padding: 10px 20px;
+        background:salmon;
+        color: rgb(44, 43, 42);
+        font-weight: bold;
+        transition: all .4s ease-out;
+    }
+    @media(max-width: 768px){
+        .details-btn{
+            border-radius: 20px;
+            outline: none;
+            border:none;
+            width: 40%;
+            padding: 10px 20px;
+            background:salmon;
+            color: rgb(44, 43, 42);
+            font-weight: bold;
+            transition: all .4s ease-out;
+        } 
+    }
+    .details-btn:hover{
+        background: black;
+        color: #fff;;
+    }
+    .see-more{
+        background: #000;
+        color:blanchedalmond;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        padding: 15px 80px;
+        transition: all .5s ease-in-out;
+    }
+    .see-more:hover{
+        background-color: #333;
+    }

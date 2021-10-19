@@ -1,0 +1,41 @@
+.form-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form-area form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 40px 0;
+    text-align: center;
+}
+.form-area input {
+    border: none;
+   background-color:rgb(235, 208, 173);
+    outline: none;
+    padding: 10px 30px;
+    margin: 10px 0;
+}
+.form-area input[type=submit]{
+    border: none;
+    background: #111;
+    text-align: center;
+    border-radius: 8px;
+    color: blanchedalmond;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.google-btn {
+    border: none;
+    outline: none;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 1px solid #1111;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: rgb(182, 176, 176);
+}
+.fa-google{
+    color: brown;
+}

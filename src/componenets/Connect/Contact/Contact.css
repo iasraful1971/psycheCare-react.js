@@ -1,0 +1,20 @@
+.contact-area input{
+    border:none;
+    margin: 10px 0;
+    width: 80%;
+    outline: none;
+    border-bottom: 1px solid #000;
+    padding: 10px 50px;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+textarea{
+    margin-top: 10px;
+    width: 80%;
+    border:none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background:cornsilk;
+    padding: 40px 20px;
+    border-radius: 20px;
+}

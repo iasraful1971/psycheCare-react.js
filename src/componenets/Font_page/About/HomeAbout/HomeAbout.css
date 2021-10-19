@@ -1,0 +1,45 @@
+.aboutbg{
+    background-image: url('../../../../image/care1.jpg');
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+    height: 100vh;
+ 
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    position: relative;
+}
+.aboutbg img {
+    border-radius: 50%;
+    border-right: 10px solid purple;
+    border-bottom: 10px solid purple;
+}
+.ab-img{
+    position: absolute;
+    
+    left: -20px;
+    right: 0;
+    bottom: -100px;
+}
+.about-text h2 {
+    font-weight:600;
+    font-size: 50px;
+    color: #52547C;
+    line-height: 60px;
+}
+.about-text .spanColor{
+    color: #EFA286;
+}
+.small-text{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.small-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color:cadetblue
+}
+.about-show{
+    margin-top: 40px;
+}

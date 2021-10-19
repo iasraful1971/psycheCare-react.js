@@ -1,0 +1,99 @@
+.logo-area {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.top-bar {
+    background: #FDF6F3;
+    padding: 20px 0;
+}
+.top-bar .logo-text {
+    padding-left: 10px;
+}
+ .logo-text h2 {
+        color: rgb(10, 2, 10) !important;
+        font-weight: 600;
+        transition: .3s;
+}
+.logo-text h2:hover{
+    color: rgb(156, 25, 117);
+}
+.top-bar-icon {
+    font-size: 40px;
+    color: saddlebrown;
+}
+.top-bar-text h3{
+    font-size: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.top-bar-text h4{
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.log-icon {
+    color: #111;
+    font-size: 40px;
+}
+.log-text {
+    padding-left: 20px;
+}
+.log-text h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(8, 4, 34);
+}
+
+/* navbar  */
+.nav-area{
+    background-color: #52547C;
+    padding: 34px 0;
+}
+
+.navitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me-auto a{
+    color:aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    transition: .3s;
+}
+.me-auto a:hover{
+    color: #efa286;
+}
+.nav-social i{
+    margin-right: 20px;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+   background: #eee8e9;
+   padding: 10px;
+   border-radius: 20%;
+}
+.nav-social2 i{
+    color: #eee8e9;
+    margin-right: 10px;
+}
+.nav-social2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.service-area h2{
+    color: rgb(219, 217, 213);
+    font-size: 22px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.service-area ul li {
+    list-style-type: none;
+    color: rgb(202, 199, 195);
+    font-size: 15px;
+    padding: 5px 0;
+}
